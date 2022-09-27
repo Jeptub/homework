@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        form {
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 500px;
+        }
+        
+        .container {
+            position: absolute;
+            #border: 1px solid black;
+            width: 455px;
+            height: 500px;
+            margin-left: 255px;
+            background-color: tomato;
+            z-index: -1;
+            border-radius: 50px;
+        }
+        
+        div .box1 :placeholder-shown {
+            border: 1px ridge gray;
+            #border-weight: bold;
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 3px;
+        }
+        
+        div .box1 :last-of-type {
+            border: 1px ridge gray;
+            #border-weight: bold;
+            border-radius: 10px;
+            font-size: 16.5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+        }
+        
+        div .box1 {
+            padding-bottom: 20px;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        
+        div .box2 :placeholder-shown {
+            border: 1px ridge gray;
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 5px;
+        }
+        
+        div .box2 :last-of-type {
+            border: 1px ridge gray;
+            border-radius: 10px;
+            font-size: 15.2px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+        }
+        
+        p {
+            color: black;
+            font-size: 40px;
+            font-weight: bolder;
+            z-index: 100;
+        }
+        
+        div .box3 {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        
+        div .Login {
+            background-color: red;
+            color: aliceblue;
+            width: 200px;
+            padding-bottom: 5px;
+            padding-Top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        div .box5 {
+            padding-top: 20px;
+        }
+        
+        .box6 {
+            font-size: 18px;
+            font-weight: bolder;
+            padding-top: 50px;
+        }
+        
+        .img1 img {
+            width: 50px;
+            height: 50px;
+            padding-top: 30px;
+            padding-right: 270px;
+        }
+        
+        .img2 img {
+            position: relative;
+            width: 62px;
+            height: 60px;
+            padding-right: 100px;
+            bottom: 58px;
+        }
+        
+        .img3 img {
+            position: relative;
+            width: 52px;
+            height: 50px;
+            padding-left: 70px;
+            bottom: 115px;
+        }
+        
+        .img4 img {
+            position: relative;
+            width: 52px;
+            height: 50px;
+            padding-left: 250px;
+            bottom: 169px;
+        }
+        
+        .op img {
+            position: absolute;
+            width: 370px;
+            height: 400px;
+            bottom: 230px;
+            left: 220px;
+        }
+        
+        h1 {
+            position: absolute;
+            font-size: 80px;
+            font-family: garamond;
+            font-style: initial;
+            color: red;
+            top: 500px;
+            margin-left: 200px;
+        }
+        
+        footer {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+    <h1>FastDelivery</h1>
+    <div class="op">
+        <img src="01.jpeg.jpg" alt=""></img>
+    </div>
+    <form>
+        <div class="container"></div>
+        <p>Login Account</p>
+        <div>
+            <div class="box1">
+                <input type="Email" placeholder="Email" required>
+            </div>
+            <div class="box2">
+                <input type="Password" placeholder="Password" required>
+            </div>
+            <div class="box3">
+                <input type="Submit" class="Login" value="Sign in">
+            </div>
+            <div class="box4">
+                <a href="#">Forgot your password? </a>
+            </div>
+            <div class="box5">
+                <a href="#">Create Account</a>
+            </div>
+        </div>
+    </form>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
